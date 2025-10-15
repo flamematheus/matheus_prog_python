@@ -1,0 +1,14 @@
+import os
+os.system("cls")
+
+
+nome= input("digite o seu nome :")
+sexo =input("digite o sexo :")
+idade = int(input("digite sua idade :"))
+
+sexo = sexo.lower()
+
+if(idade < 25 and sexo == "f"):
+    print(f"nome {nome}, \n aceito ")
+else:
+    print(f"nome {nome}, \n  não aceito ")

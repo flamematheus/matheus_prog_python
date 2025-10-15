@@ -6,7 +6,7 @@ B = 62
 
 C = A
 print("C:",C)
-print("C:",A)
+print("A:",A)
 
 A=B
 print("A:",A)
