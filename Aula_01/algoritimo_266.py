@@ -9,3 +9,5 @@ while True:
         break
     if nome:  # Verifica se o nome não está vazio
         print(f"Primeiro caractere: {nome[0]}")
+ 
+ 
